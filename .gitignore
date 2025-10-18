@@ -208,3 +208,5 @@ __marimo__/
 
 # Arquivos do projeto
 data/raw/dataset/
+data/raw/dataset.old.zip
+data/processed/modelo_ocr_simbolos.keras.bkp
