@@ -61,7 +61,7 @@ Imagem de teste: [data/raw/ocr_test_image.png](data/raw/ocr_test_image.png)
 
 ### Apresentação em Slides
 
-[Apresentação em slides do Projeto OCR ELiS](https://github.com/maxwellamaral/OCR_ELiS/blob/main/Projeto%20Final%20-%20DL.pdf)
+[![Apresentação em slides do Projeto OCR ELiS](https://github.com/maxwellamaral/OCR_ELiS/blob/main/assets/capa_apresentacao_slides.png)](https://github.com/maxwellamaral/OCR_ELiS/blob/main/Projeto%20Final%20-%20DL.pdf)
 
 ### Vídeo explicativo do projeto
 
@@ -71,7 +71,11 @@ Imagem de teste: [data/raw/ocr_test_image.png](data/raw/ocr_test_image.png)
 
 **Explicação detalhada**
 
-[![Projeto OCR ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq3.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gWShlMA8=&rs=AOn4CLAV89-xJgWGuPe_hAVdSo-RSkZ1Og)](https://youtu.be/Thz6nTytnro?si=iW7FI4hD2wWRp7jo)
+[![Projeto OCR ELiS detalhado](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq3.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gWShlMA8=&rs=AOn4CLAV89-xJgWGuPe_hAVdSo-RSkZ1Og)](https://youtu.be/Thz6nTytnro?si=iW7FI4hD2wWRp7jo)
+
+### Versão inicial do frontend
+
+![Frontend do Projeto OCR ELiS](https://github.com/maxwellamaral/OCR_ELiS/blob/main/assets/OCR_ELiS_frontend.gif)
 
 ### Referências sobre o ELiS
 
