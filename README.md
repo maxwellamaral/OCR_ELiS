@@ -57,6 +57,17 @@ Imagem de teste: [data/raw/ocr_test_image.png](data/raw/ocr_test_image.png)
    - [notebooks/ocr_groupment.ipynb](notebooks/ocr_groupment.ipynb) e/ou [notebooks/ocr_contourns.ipynb](notebooks/ocr_contourns.ipynb)
 3. Use a GPU se disponível (kernels “tf-gpu” demonstrados nos notebooks).
 
+### Vídeo explicativo do projeto
+
+**Explicação geral**
+
+[![Projeto ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq2.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDMgRih_MA8=&rs=AOn4CLDTIygbwrRIELSt-Ub-_VcQ9WpmmA)](https://youtu.be/6qfnwk7OBco?si=tIwltl4KQy_0dHsn)
+
+**Explicação detalhada**
+
+[![Projeto ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq3.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gWShlMA8=&rs=AOn4CLAV89-xJgWGuPe_hAVdSo-RSkZ1Og)](https://youtu.be/Thz6nTytnro?si=iW7FI4hD2wWRp7jo)
+
+
 ### Citação (BibLaTeX)
 
 Use esta entrada para citar o repositório:
