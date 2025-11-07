@@ -1,0 +1,9 @@
+[project]
+name = "frontend"
+version = "0.1.0"
+description = "Frontend for OCR ELiS project"
+dependencies = [
+    "PySide6",
+    "requests",
+    "Pillow"
+]
