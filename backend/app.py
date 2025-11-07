@@ -8,6 +8,7 @@ import base64
 import io
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import time  # Added for timing
 
 app = Flask(__name__)
 CORS(app)
@@ -20,6 +21,8 @@ ROOT = APP_DIR.parent  # Assumes app.py is in 'backend/', so ROOT is one level u
 DATA_DIR = ROOT / "data"
 MODEL_PATH = DATA_DIR / "processed" / "modelo_ocr_simbolos.keras"
 CLASS_NAMES_PATH = DATA_DIR / "raw" / "class_names.json"
+ELIS_PARAMS_PATH = DATA_DIR / "external" / "elis_parameters.json"
+ELIS_GROUPS_PATH = DATA_DIR / "external" / "elis_groups.json"
 IMG_HEIGHT = 64
 IMG_WIDTH = 64
 
@@ -28,11 +31,18 @@ try:
     model = tf.keras.models.load_model(str(MODEL_PATH))
     with open(str(CLASS_NAMES_PATH), 'r', encoding='utf-8') as f:
         class_names = json.load(f)
-    print("✓ Model and class names loaded successfully!")
+    with open(str(ELIS_PARAMS_PATH), 'r', encoding='utf-8') as f:
+        elis_params = json.load(f)
+    with open(str(ELIS_GROUPS_PATH), 'r', encoding='utf-8') as f:
+        elis_groups_data = json.load(f)
+        elis_groups = elis_groups_data['elis_hierarquia']['grupos']
+    print("✓ Model, class names, ELiS parameters, and ELiS groups loaded successfully!")
 except Exception as e:
-    print(f"✗ Error loading model or class names: {e}")
+    print(f"✗ Error loading model, class names, ELiS parameters, or ELiS groups: {e}")
     model = None
     class_names = []
+    elis_params = {}
+    elis_groups = {}
 
 # --- Helper Functions (Refactored from Notebook) ---
 def unicode_to_char(unicode_str: str) -> str:
@@ -142,6 +152,8 @@ def predict():
     except Exception as e:
         return jsonify({'error': f'Invalid image file: {e}'}), 400
 
+    start_time = time.time()  # Start timing
+
     processed_image = preprocess_image_for_ocr(image)
 
     spacing_stats = analyze_spacing(processed_image)
@@ -150,6 +162,7 @@ def predict():
     segmented_symbols = segment_characters_with_grouping(processed_image, max_gap=max_gap)
 
     results = []
+    confidences = []
     recognized_text = ""
     for symbol_data in segmented_symbols:
         char_img = symbol_data['image']
@@ -158,10 +171,17 @@ def predict():
         predictions = model.predict(input_array, verbose=0)
         predicted_idx = np.argmax(predictions[0])
         confidence = float(predictions[0][predicted_idx])
+        confidences.append(confidence)
 
         unicode_class = class_names[predicted_idx]
         character = unicode_to_char(unicode_class)
         recognized_text += character
+
+        # Get ELiS parameters
+        params = elis_params.get(unicode_class, {})
+        decodificacao = params.get('decodificacao', 'Não encontrado')
+        grupo_elis = params.get('grupo_elis', '')
+        descricao_grupo = elis_groups.get(grupo_elis, {}).get('descricao_grupo', 'Não encontrado')
 
         # Encode image to base64
         pil_img = Image.fromarray(char_img)
@@ -172,12 +192,28 @@ def predict():
         results.append({
             'character': character,
             'confidence': confidence,
-            'image_base64': f'data:image/png;base64,{img_str}'
+            'image_base64': f'data:image/png;base64,{img_str}',
+            'decodificacao': decodificacao,
+            'grupo_elis': grupo_elis,
+            'descricao_grupo': descricao_grupo
         })
+
+    end_time = time.time()  # End timing
+    processing_time = end_time - start_time
+
+    # Calculate average confidence as proxy for model precision
+    average_confidence = np.mean(confidences) if confidences else 0.0
+
+    advanced_info = {
+        'processing_time_seconds': round(processing_time, 2),
+        'average_confidence': round(average_confidence, 4),
+        'num_characters_recognized': len(results)
+    }
 
     return jsonify({
         'recognized_text': recognized_text,
-        'detailed_analysis': results
+        'detailed_analysis': results,
+        'advanced_info': advanced_info
     })
 
 if __name__ == '__main__':

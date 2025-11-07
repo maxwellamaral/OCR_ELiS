@@ -34,16 +34,8 @@
                         <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 items-start">
                             <OcrUploader @image-uploaded="handleImageUpload" @perform-ocr="performOcr"
                                 :image-preview="imagePreview" />
-                            <OcrResults :ocr-result="ocrResult" :detailed-analysis="detailedAnalysis" />
-                        </div>
-                        <div class="flex flex-col gap-4 p-6 rounded-xl bg-dark-card shadow-subtle border border-dark-border">
-                            <h3 class="text-lg font-semibold text-dark-text">Informações Avançadas</h3>
-                            <p v-if="advancedInfo.processing_time_seconds !== undefined" class="text-dark-text-soft text-base">
-                                Tempo de processamento: {{ advancedInfo.processing_time_seconds }} segundos.<br>
-                                Confiança média do modelo: {{ advancedInfo.average_confidence }}.<br>
-                                Número de caracteres reconhecidos: {{ advancedInfo.num_characters_recognized }}.
-                            </p>
-                            <p v-else class="text-dark-text-soft text-base">Adicionar posteriormente detalhes técnicos sobre o OCR, como precisão do modelo, tempo de processamento ou dicas para melhorar a qualidade da imagem.</p>
+                            <OcrResults :ocr-result="ocrResult" :detailed-analysis="detailedAnalysis"
+                                :advanced-info="advancedInfo" />
                         </div>
                     </main>
                 </div>
@@ -93,7 +85,7 @@ export default {
                     },
                 });
                 this.ocrResult = response.data.recognized_text;
-                this.detailedAnalysis = response.data.detailed_analysis;
+                this.detailedAnalysis = Array.isArray(response.data.detailed_analysis) ? response.data.detailed_analysis : [];
                 this.advancedInfo = response.data.advanced_info || {};
             } catch (error) {
                 console.error('Error performing OCR:', error);
