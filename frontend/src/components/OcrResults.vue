@@ -12,12 +12,21 @@
       <h3 class="text-lg font-semibold text-dark-text mb-4 border-b border-dark-border pb-2">Análise Detalhada dos Sinais</h3>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
         <div v-for="(item, index) in detailedAnalysis" :key="index" class="flex flex-col items-center gap-2">
-          <div class="w-full aspect-square rounded-lg flex items-center justify-center sign-illustration bg-dark-bg">
-            <img :src="item.image_base64" alt="Diagrama do Sinal" class="p-4" />
+          <div class="w-full h-32 rounded-lg flex items-center justify-center sign-illustration bg-dark-bg">
+            <img :src="item.image_base64" alt="Diagrama do Sinal" class="p-4 w-full h-full object-contain" />
           </div>
-          <span class="text-base text-dark-text-soft font-medium">Sinal {{ index + 1 }}: '{{ item.character }}'</span>
+          <span class="text-base text-dark-text-soft font-medium text-center">Sinal {{ index + 1 }}: '{{ item.character }}'</span>
+          <span class="text-base text-dark-text-soft font-medium text-center">Código Unicode: U+{{ item.character.charCodeAt(0).toString(16).toUpperCase().padStart(4, '0') }}</span>
         </div>
       </div>
+    </div>
+    <!-- <div v-if="videoSrc" class="py-3"> -->
+    <div class="py-3">
+      <h3 class="text-lg font-semibold text-dark-text mb-4 border-b border-dark-border pb-2">Vídeo da Sequência</h3>
+      <video controls class="w-full h-auto rounded-lg">
+        <source :src="videoSrc" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
     </div>
   </div>
 </template>
@@ -28,6 +37,7 @@ export default {
   props: {
     ocrResult: String,
     detailedAnalysis: Array,
+    videoSrc: String,
   },
 };
 </script>
