@@ -1,0 +1,13 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend for OCR ELiS project"
+dependencies = [
+    "flask",
+    "werkzeug",
+    "opencv-python",
+    "tensorflow",
+    "numpy",
+    "Pillow",
+    "ultralytics"
+]
