@@ -1,6 +1,8 @@
 
 ## OCR de visografemas ELiS com CNN e segmentação por componentes
 
+> Apresentação em slides e em vídeo estão no final desde README.
+
 Reconhecimento Óptico de Visografemas (OCR) do sistema ELiS a partir de imagens sintéticas renderizadas de uma fonte dedicada. O projeto gera um dataset de visografemas, treina uma CNN para classificação por símbolo (em Unicode no formato U+XXXX) e avalia duas abordagens de segmentação para OCR em imagens com múltiplos visografemas.
 
 - Fonte de dados: fonte ELiS (arquivo TTF) renderizada para 64×64 px, fundo branco e glifo preto.
@@ -57,16 +59,25 @@ Imagem de teste: [data/raw/ocr_test_image.png](data/raw/ocr_test_image.png)
    - [notebooks/ocr_groupment.ipynb](notebooks/ocr_groupment.ipynb) e/ou [notebooks/ocr_contourns.ipynb](notebooks/ocr_contourns.ipynb)
 3. Use a GPU se disponível (kernels “tf-gpu” demonstrados nos notebooks).
 
+### Apresentação em Slides
+
+[Apresentação em slides do Projeto OCR ELiS](https://github.com/maxwellamaral/OCR_ELiS/blob/main/Projeto%20Final%20-%20DL.pdf)
+
 ### Vídeo explicativo do projeto
 
 **Explicação geral**
 
-[![Projeto ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq2.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDMgRih_MA8=&rs=AOn4CLDTIygbwrRIELSt-Ub-_VcQ9WpmmA)](https://youtu.be/6qfnwk7OBco?si=tIwltl4KQy_0dHsn)
+[![Projeto OCR ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq2.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDMgRih_MA8=&rs=AOn4CLDTIygbwrRIELSt-Ub-_VcQ9WpmmA)](https://youtu.be/6qfnwk7OBco?si=tIwltl4KQy_0dHsn)
 
 **Explicação detalhada**
 
-[![Projeto ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq3.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gWShlMA8=&rs=AOn4CLAV89-xJgWGuPe_hAVdSo-RSkZ1Og)](https://youtu.be/Thz6nTytnro?si=iW7FI4hD2wWRp7jo)
+[![Projeto OCR ELiS](https://i9.ytimg.com/vi_webp/6qfnwk7OBco/mq3.webp?sqp=CPDduMgG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gWShlMA8=&rs=AOn4CLAV89-xJgWGuPe_hAVdSo-RSkZ1Og)](https://youtu.be/Thz6nTytnro?si=iW7FI4hD2wWRp7jo)
 
+### Referências sobre o ELiS
+
+- BARROS, Mariângela Estelita. Princípios básicos da ELiS. Revista Sinalizar, v. 1, n. 2, p. 204-210, 2016.
+- SANTOS, Rayan Soares; VALVERDE, Clodoaldo; BARROS, Mariangela Estelita. QUIMLIBRAS: Objeto virtual de aprendizagem (OVA)  como instrumento de articulação entre a química e a LIBRAS/ELIS. AnápolisUniversidade Federal de Goiás, 2018. Disponível em: <http://www.bdtd.ueg.br/handle/tede/94>. Acesso em: 20 out. 2025
+- BARROS, Mariângela Estelita. ELiS – Escrita das Línguas de Sinais: proposta teórica e verificação... phd—[S.l.]: Universidade Federal de Santa Catarina, 2008.
 
 ### Citação (BibLaTeX)
 
