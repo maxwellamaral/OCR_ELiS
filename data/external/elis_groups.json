@@ -1,0 +1,95 @@
+{
+  "elis_hierarquia": {
+    "titulo": "Tabela de Visografemas da ELiS (ELiS Decodificada em Português)",
+    "grupos": {
+      "CD": {
+        "id_grupo": "Grupo 1",
+        "descricao_grupo": "Configuração de Dedo (CD)",
+        "subgrupos": [
+          {
+            "id_subgrupo": "Subgrupo 1A",
+            "descricao_subgrupo": "Dedo (Polegar)"
+          },
+          {
+            "id_subgrupo": "Subgrupo 1B",
+            "descricao_subgrupo": "Dedo (Demais Dedos)"
+          },
+          {
+            "id_subgrupo": "Subgrupo 1C",
+            "descricao_subgrupo": "Polegar e/ou Demais Dedos"
+          }
+        ]
+      },
+      "OP": {
+        "id_grupo": "Grupo 2",
+        "descricao_grupo": "Orientação da Palma (OP)",
+        "subgrupos": [
+          {
+            "id_subgrupo": "Subgrupo 2A",
+            "descricao_subgrupo": "-"
+          }
+        ]
+      },
+      "PA": {
+        "id_grupo": "Grupo 3",
+        "descricao_grupo": "Ponto de Articulação (PA)",
+        "subgrupos": [
+          {
+            "id_subgrupo": "Subgrupo 3A",
+            "descricao_subgrupo": "Cabeça"
+          },
+          {
+            "id_subgrupo": "Subgrupo 3B",
+            "descricao_subgrupo": "Tronco"
+          },
+          {
+            "id_subgrupo": "Subgrupo 3C",
+            "descricao_subgrupo": "Membros"
+          },
+          {
+            "id_subgrupo": "Subgrupo 3D",
+            "descricao_subgrupo": "Mão"
+          }
+        ]
+      },
+      "M": {
+        "id_grupo": "Grupo 4",
+        "descricao_grupo": "Movimento (M)",
+        "subgrupos": [
+          {
+            "id_subgrupo": "Subgrupo 4A",
+            "descricao_subgrupo": "Movimentos Externos"
+          },
+          {
+            "id_subgrupo": "Subgrupo 4B",
+            "descricao_subgrupo": "Movimentos Internos"
+          },
+          {
+            "id_subgrupo": "Subgrupo 4C",
+            "descricao_subgrupo": "Movimentos Sem as Mãos (ENM)"
+          }
+        ]
+      },
+      "Diacrítico (M/PA)": {
+        "id_grupo": "Grupo 5",
+        "descricao_grupo": "Diacrítico (M e PA)",
+        "subgrupos": [
+          {
+            "id_subgrupo": "Subgrupo 5A",
+            "descricao_subgrupo": "Diacrítico"
+          }
+        ]
+      },
+      "Pontuação": {
+        "id_grupo": "Grupo 6",
+        "descricao_grupo": "Símbolos Gráficos e Pontuação",
+        "subgrupos": [
+          {
+            "id_subgrupo": "Subgrupo 6A",
+            "descricao_subgrupo": "Pontuação"
+          }
+        ]
+      }
+    }
+  }
+}

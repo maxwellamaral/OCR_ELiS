@@ -1,0 +1,863 @@
+{
+  "U+0071": {
+    "visografema": "q",
+    "decodificacao": "Fechado",
+    "grupo_elis": "CD",
+    "ordem": "1A (1P)",
+    "fontes": ""
+  },
+  "U+0077": {
+    "visografema": "w",
+    "decodificacao": "Na palma",
+    "grupo_elis": "CD",
+    "ordem": "1A (2P)",
+    "fontes": ""
+  },
+  "U+0065": {
+    "visografema": "e",
+    "decodificacao": "Curvo",
+    "grupo_elis": "CD",
+    "ordem": "1A (3P)",
+    "fontes": ""
+  },
+  "U+0072": {
+    "visografema": "r",
+    "decodificacao": "“3D”",
+    "grupo_elis": "CD",
+    "ordem": "1A (4P)",
+    "fontes": ""
+  },
+  "U+0074": {
+    "visografema": "t",
+    "decodificacao": "Horizontal",
+    "grupo_elis": "CD",
+    "ordem": "1A (5P)",
+    "fontes": ""
+  },
+  "U+0079": {
+    "visografema": "y",
+    "decodificacao": "Vertical",
+    "grupo_elis": "CD",
+    "ordem": "1A (6P)",
+    "fontes": ""
+  },
+  "U+0075": {
+    "visografema": "u",
+    "decodificacao": "Muito curvo",
+    "grupo_elis": "CD",
+    "ordem": "1B (2P)",
+    "fontes": ""
+  },
+  "U+006F": {
+    "visografema": "o",
+    "decodificacao": "Curvo",
+    "grupo_elis": "CD",
+    "ordem": "1B (3P)",
+    "fontes": ""
+  },
+  "U+0073": {
+    "visografema": "s",
+    "decodificacao": "Inclinado",
+    "grupo_elis": "CD",
+    "ordem": "1B (4P)",
+    "fontes": ""
+  },
+  "U+0067": {
+    "visografema": "g",
+    "decodificacao": "Estendido",
+    "grupo_elis": "CD",
+    "ordem": "1B (5P)",
+    "fontes": ""
+  },
+  "U+006B": {
+    "visografema": "k",
+    "decodificacao": "Todos (polegar e demais dedos) os dedos fechados",
+    "grupo_elis": "CD",
+    "ordem": "1C (1P)",
+    "fontes": ""
+  },
+  "U+0069": {
+    "visografema": "i",
+    "decodificacao": "Muito curvos em contato com a ponta do dedo polegar",
+    "grupo_elis": "CD",
+    "ordem": "1C (2P)",
+    "fontes": ""
+  },
+  "U+0070": {
+    "visografema": "p",
+    "decodificacao": "Curvos e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (3P)",
+    "fontes": ""
+  },
+  "U+00B9": {
+    "visografema": "¹",
+    "decodificacao": "Dedos indicador e médio curvos e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (4P)",
+    "fontes": ""
+  },
+  "U+00B2": {
+    "visografema": "²",
+    "decodificacao": "Dedos indicador, médio e anelar curvos e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (5P)",
+    "fontes": ""
+  },
+  "U+0061": {
+    "visografema": "a",
+    "decodificacao": "Curvos em contato com a ponta do dedo polegar",
+    "grupo_elis": "CD",
+    "ordem": "1C (6P)",
+    "fontes": ""
+  },
+  "U+0064": {
+    "visografema": "d",
+    "decodificacao": "Demais dedos inclinados e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (7P)",
+    "fontes": ""
+  },
+  "U+00B3": {
+    "visografema": "³",
+    "decodificacao": "Dedos indicador e médio inclinados e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (8P)",
+    "fontes": ""
+  },
+  "U+00A3": {
+    "visografema": "£",
+    "decodificacao": "Dedos indicador, médio e anelar inclinados e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (9P)",
+    "fontes": ""
+  },
+  "U+0066": {
+    "visografema": "f",
+    "decodificacao": "Demais dedos inclinados em contato com a ponta do dedo polegar",
+    "grupo_elis": "CD",
+    "ordem": "1C (10P)",
+    "fontes": ""
+  },
+  "U+0068": {
+    "visografema": "h",
+    "decodificacao": "Demais dedos estendidos e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (11P)",
+    "fontes": ""
+  },
+  "U+00A2": {
+    "visografema": "¢",
+    "decodificacao": "Dedos indicador e polegar estendidos e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (12P)",
+    "fontes": ""
+  },
+  "U+00AC": {
+    "visografema": "¬",
+    "decodificacao": "Dedos indicador, médio e anelar estendidos e unidos",
+    "grupo_elis": "CD",
+    "ordem": "1C (13P)",
+    "fontes": ""
+  },
+  "U+006A": {
+    "visografema": "j",
+    "decodificacao": "Dedos indicador e médio cruzados",
+    "grupo_elis": "CD",
+    "ordem": "1C (14P)",
+    "fontes": ""
+  },
+  "U+00E7": {
+    "visografema": "ç",
+    "decodificacao": "Palma para trás",
+    "grupo_elis": "OP",
+    "ordem": "2A (2P)",
+    "fontes": ""
+  },
+  "U+007A": {
+    "visografema": "z",
+    "decodificacao": "Palma para a medial",
+    "grupo_elis": "OP",
+    "ordem": "2A (3P)",
+    "fontes": ""
+  },
+  "U+0078": {
+    "visografema": "x",
+    "decodificacao": "Palma para a lateral",
+    "grupo_elis": "OP",
+    "ordem": "2A (4P)",
+    "fontes": ""
+  },
+  "U+0063": {
+    "visografema": "c",
+    "decodificacao": "Palma para cima",
+    "grupo_elis": "OP",
+    "ordem": "2A (5P)",
+    "fontes": ""
+  },
+  "U+0076": {
+    "visografema": "v",
+    "decodificacao": "Palma para baixo",
+    "grupo_elis": "OP",
+    "ordem": "2A (6P)",
+    "fontes": ""
+  },
+  "U+0051": {
+    "visografema": "Q",
+    "decodificacao": "Espaço à frente do rosto",
+    "grupo_elis": "PA",
+    "ordem": "3A (1P)",
+    "fontes": ""
+  },
+  "U+0057": {
+    "visografema": "W",
+    "decodificacao": "Alto da cabeça",
+    "grupo_elis": "PA",
+    "ordem": "3A (2P)",
+    "fontes": ""
+  },
+  "U+0045": {
+    "visografema": "E",
+    "decodificacao": "Lateral da cabeça",
+    "grupo_elis": "PA",
+    "ordem": "3A (3P)",
+    "fontes": ""
+  },
+  "U+0052": {
+    "visografema": "R",
+    "decodificacao": "Orelha (s)",
+    "grupo_elis": "PA",
+    "ordem": "3A (4P)",
+    "fontes": ""
+  },
+  "U+0054": {
+    "visografema": "T",
+    "decodificacao": "Testa",
+    "grupo_elis": "PA",
+    "ordem": "3A (5P)",
+    "fontes": ""
+  },
+  "U+0059": {
+    "visografema": "Y",
+    "decodificacao": "Sobrancelha (s)",
+    "grupo_elis": "PA",
+    "ordem": "3A (6P)",
+    "fontes": ""
+  },
+  "U+0055": {
+    "visografema": "U",
+    "decodificacao": "Olho (s)",
+    "grupo_elis": "PA",
+    "ordem": "3A (7P)",
+    "fontes": ""
+  },
+  "U+0049": {
+    "visografema": "I",
+    "decodificacao": "Maça do rosto",
+    "grupo_elis": "PA",
+    "ordem": "3A (8P)",
+    "fontes": ""
+  },
+  "U+004F": {
+    "visografema": "O",
+    "decodificacao": "Nariz",
+    "grupo_elis": "PA",
+    "ordem": "3A (9P)",
+    "fontes": ""
+  },
+  "U+0050": {
+    "visografema": "P",
+    "decodificacao": "Buço",
+    "grupo_elis": "PA",
+    "ordem": "3A (10P)",
+    "fontes": ""
+  },
+  "U+0041": {
+    "visografema": "A",
+    "decodificacao": "Boca",
+    "grupo_elis": "PA",
+    "ordem": "3A (11P)",
+    "fontes": ""
+  },
+  "U+0053": {
+    "visografema": "S",
+    "decodificacao": "Dentes",
+    "grupo_elis": "PA",
+    "ordem": "3A (12P)",
+    "fontes": ""
+  },
+  "U+0044": {
+    "visografema": "D",
+    "decodificacao": "Bochecha (s)",
+    "grupo_elis": "PA",
+    "ordem": "3A (13P)",
+    "fontes": ""
+  },
+  "U+0046": {
+    "visografema": "F",
+    "decodificacao": "Queixo",
+    "grupo_elis": "PA",
+    "ordem": "3A (14P)",
+    "fontes": ""
+  },
+  "U+0047": {
+    "visografema": "G",
+    "decodificacao": "Abaixo do queixo",
+    "grupo_elis": "PA",
+    "ordem": "3A (15P)",
+    "fontes": ""
+  },
+  "U+0048": {
+    "visografema": "H",
+    "decodificacao": "Pescoço",
+    "grupo_elis": "PA",
+    "ordem": "3B (1P)",
+    "fontes": ""
+  },
+  "U+004A": {
+    "visografema": "J",
+    "decodificacao": "Espaço neutro",
+    "grupo_elis": "PA",
+    "ordem": "3B (2P)",
+    "fontes": ""
+  },
+  "U+004B": {
+    "visografema": "K",
+    "decodificacao": "Tórax",
+    "grupo_elis": "PA",
+    "ordem": "3B (3P)",
+    "fontes": ""
+  },
+  "U+004C": {
+    "visografema": "L",
+    "decodificacao": "Lateral do corpo",
+    "grupo_elis": "PA",
+    "ordem": "3B (4P)",
+    "fontes": ""
+  },
+  "U+00C7": {
+    "visografema": "Ç",
+    "decodificacao": "Abdômen",
+    "grupo_elis": "PA",
+    "ordem": "3B (5P)",
+    "fontes": ""
+  },
+  "U+005C": {
+    "visografema": "\\",
+    "decodificacao": "Braço inteiro",
+    "grupo_elis": "PA",
+    "ordem": "3C (1P)",
+    "fontes": ""
+  },
+  "U+005A": {
+    "visografema": "Z",
+    "decodificacao": "Ombro",
+    "grupo_elis": "PA",
+    "ordem": "3C (2P)",
+    "fontes": ""
+  },
+  "U+0058": {
+    "visografema": "X",
+    "decodificacao": "Axila",
+    "grupo_elis": "PA",
+    "ordem": "3C (3P)",
+    "fontes": ""
+  },
+  "U+0043": {
+    "visografema": "C",
+    "decodificacao": "Braço",
+    "grupo_elis": "PA",
+    "ordem": "3C (4P)",
+    "fontes": ""
+  },
+  "U+0056": {
+    "visografema": "V",
+    "decodificacao": "Cotovelo",
+    "grupo_elis": "PA",
+    "ordem": "3C (5P)",
+    "fontes": ""
+  },
+  "U+0042": {
+    "visografema": "B",
+    "decodificacao": "Antebraço",
+    "grupo_elis": "PA",
+    "ordem": "3C (6P)",
+    "fontes": ""
+  },
+  "U+004E": {
+    "visografema": "N",
+    "decodificacao": "Punho",
+    "grupo_elis": "PA",
+    "ordem": "3C (7P)",
+    "fontes": ""
+  },
+  "U+004D": {
+    "visografema": "M",
+    "decodificacao": "Perna (s)",
+    "grupo_elis": "PA",
+    "ordem": "3C (8P)",
+    "fontes": ""
+  },
+  "U+0040": {
+    "visografema": "@",
+    "decodificacao": "Palma da mão",
+    "grupo_elis": "PA",
+    "ordem": "3D (1P)",
+    "fontes": ""
+  },
+  "U+0023": {
+    "visografema": "#",
+    "decodificacao": "Dorso da mão",
+    "grupo_elis": "PA",
+    "ordem": "3D (2P)",
+    "fontes": ""
+  },
+  "U+0024": {
+    "visografema": "$",
+    "decodificacao": "Dedos",
+    "grupo_elis": "PA",
+    "ordem": "3D (3P)",
+    "fontes": ""
+  },
+  "U+0025": {
+    "visografema": "%",
+    "decodificacao": "Lateral de dedo",
+    "grupo_elis": "PA",
+    "ordem": "3D (4P)",
+    "fontes": ""
+  },
+  "U+0026": {
+    "visografema": "&",
+    "decodificacao": "Intervalo entre dedos",
+    "grupo_elis": "PA",
+    "ordem": "3D (5P)",
+    "fontes": ""
+  },
+  "U+002A": {
+    "visografema": "*",
+    "decodificacao": "Articulação de dedo",
+    "grupo_elis": "PA",
+    "ordem": "3D (6P)",
+    "fontes": ""
+  },
+  "U+005F": {
+    "visografema": "_",
+    "decodificacao": "Ponta de dedo",
+    "grupo_elis": "PA",
+    "ordem": "3D (7P)",
+    "fontes": ""
+  },
+  "U+00E0": {
+    "visografema": "à",
+    "decodificacao": "Para frente",
+    "grupo_elis": "M",
+    "ordem": "4A (1P)",
+    "fontes": ""
+  },
+  "U+00E1": {
+    "visografema": "á",
+    "decodificacao": "Para trás",
+    "grupo_elis": "M",
+    "ordem": "4A (2P)",
+    "fontes": ""
+  },
+  "U+00E2": {
+    "visografema": "â",
+    "decodificacao": "Para frente e para trás",
+    "grupo_elis": "M",
+    "ordem": "4A (3P)",
+    "fontes": ""
+  },
+  "U+00E3": {
+    "visografema": "ã",
+    "decodificacao": "Para cima",
+    "grupo_elis": "M",
+    "ordem": "4A (4P)",
+    "fontes": ""
+  },
+  "U+00E4": {
+    "visografema": "ä",
+    "decodificacao": "Para baixo",
+    "grupo_elis": "M",
+    "ordem": "4A (5P)",
+    "fontes": ""
+  },
+  "U+00E8": {
+    "visografema": "è",
+    "decodificacao": "Para cima e para baixo",
+    "grupo_elis": "M",
+    "ordem": "4A (6P)",
+    "fontes": ""
+  },
+  "U+00E9": {
+    "visografema": "é",
+    "decodificacao": "Para a direita",
+    "grupo_elis": "M",
+    "ordem": "4A (7P)",
+    "fontes": ""
+  },
+  "U+00EA": {
+    "visografema": "ê",
+    "decodificacao": "Para a esquerda",
+    "grupo_elis": "M",
+    "ordem": "4A (8P)",
+    "fontes": ""
+  },
+  "U+00EB": {
+    "visografema": "ë",
+    "decodificacao": "Para direita e esquerda",
+    "grupo_elis": "M",
+    "ordem": "4A (9P)",
+    "fontes": ""
+  },
+  "U+00EC": {
+    "visografema": "ì",
+    "decodificacao": "Para o meio",
+    "grupo_elis": "M",
+    "ordem": "4A (10P)",
+    "fontes": ""
+  },
+  "U+00ED": {
+    "visografema": "í",
+    "decodificacao": "Para fora",
+    "grupo_elis": "M",
+    "ordem": "4A (11P)",
+    "fontes": ""
+  },
+  "U+00EE": {
+    "visografema": "î",
+    "decodificacao": "Para cima e direita",
+    "grupo_elis": "M",
+    "ordem": "4A (12P)",
+    "fontes": ""
+  },
+  "U+00EF": {
+    "visografema": "ï",
+    "decodificacao": "Para cima e esquerda",
+    "grupo_elis": "M",
+    "ordem": "4A (13P)",
+    "fontes": ""
+  },
+  "U+00F2": {
+    "visografema": "ò",
+    "decodificacao": "Para baixo e direita",
+    "grupo_elis": "M",
+    "ordem": "4A (14P)",
+    "fontes": ""
+  },
+  "U+00F3": {
+    "visografema": "ó",
+    "decodificacao": "Para baixo e esquerda",
+    "grupo_elis": "M",
+    "ordem": "4A (15P)",
+    "fontes": ""
+  },
+  "U+00F4": {
+    "visografema": "ô",
+    "decodificacao": "Arco",
+    "grupo_elis": "M",
+    "ordem": "4A (16P)",
+    "fontes": ""
+  },
+  "U+00F5": {
+    "visografema": "õ",
+    "decodificacao": "Flexão/extensão do braço",
+    "grupo_elis": "M",
+    "ordem": "4A (17P)",
+    "fontes": ""
+  },
+  "U+00F6": {
+    "visografema": "ö",
+    "decodificacao": "Circular vertical",
+    "grupo_elis": "M",
+    "ordem": "4A (18P)",
+    "fontes": ""
+  },
+  "U+00F9": {
+    "visografema": "ù",
+    "decodificacao": "Circular horizontal",
+    "grupo_elis": "M",
+    "ordem": "4A (19P)",
+    "fontes": ""
+  },
+  "U+00FA": {
+    "visografema": "ú",
+    "decodificacao": "Circular frontal",
+    "grupo_elis": "M",
+    "ordem": "4A (20P)",
+    "fontes": ""
+  },
+  "U+00FB": {
+    "visografema": "û",
+    "decodificacao": "Abrir a mão",
+    "grupo_elis": "M",
+    "ordem": "4B (1P)",
+    "fontes": ""
+  },
+  "U+00FC": {
+    "visografema": "ü",
+    "decodificacao": "Fechar a mão",
+    "grupo_elis": "M",
+    "ordem": "4B (2P)",
+    "fontes": ""
+  },
+  "U+00C0": {
+    "visografema": "À",
+    "decodificacao": "Abrir e fechar a mão",
+    "grupo_elis": "M",
+    "ordem": "4B (3P)",
+    "fontes": ""
+  },
+  "U+00C1": {
+    "visografema": "Á",
+    "decodificacao": "Flexionar o (s) dedo (s) na base (ou os dedos na 1ª articulação)",
+    "grupo_elis": "M",
+    "ordem": "4B (4P)",
+    "fontes": ""
+  },
+  "U+00C2": {
+    "visografema": "Â",
+    "decodificacao": "Flexionar o (s) dedo (s) na ponta (ou os dedos na 2ª articulação)",
+    "grupo_elis": "M",
+    "ordem": "4B (5P)",
+    "fontes": ""
+  },
+  "U+00C3": {
+    "visografema": "Ã",
+    "decodificacao": "Unir e separar os dedos",
+    "grupo_elis": "M",
+    "ordem": "4B (6P)",
+    "fontes": ""
+  },
+  "U+00C4": {
+    "visografema": "Ä",
+    "decodificacao": "Tamborilar de dedos",
+    "grupo_elis": "M",
+    "ordem": "4B (7P)",
+    "fontes": ""
+  },
+  "U+00C8": {
+    "visografema": "È",
+    "decodificacao": "Friccionar de dedos",
+    "grupo_elis": "M",
+    "ordem": "4B (8P)",
+    "fontes": ""
+  },
+  "U+00C9": {
+    "visografema": "É",
+    "decodificacao": "Dobrar o punho",
+    "grupo_elis": "M",
+    "ordem": "4B (9P)",
+    "fontes": ""
+  },
+  "U+00CA": {
+    "visografema": "Ê",
+    "decodificacao": "Mover o punho lateralmente",
+    "grupo_elis": "M",
+    "ordem": "4B (10P)",
+    "fontes": ""
+  },
+  "U+00CB": {
+    "visografema": "Ë",
+    "decodificacao": "Girar o punho",
+    "grupo_elis": "M",
+    "ordem": "4B (11P)",
+    "fontes": ""
+  },
+  "U+00CC": {
+    "visografema": "Ì",
+    "decodificacao": "Girar o antebraço",
+    "grupo_elis": "M",
+    "ordem": "4B (12P)",
+    "fontes": ""
+  },
+  "U+00CD": {
+    "visografema": "Í",
+    "decodificacao": "Negação com a cabeça",
+    "grupo_elis": "M",
+    "ordem": "4C (1P)",
+    "fontes": ""
+  },
+  "U+00CE": {
+    "visografema": "Î",
+    "decodificacao": "Afirmação com a cabeça",
+    "grupo_elis": "M",
+    "ordem": "4C (2P)",
+    "fontes": ""
+  },
+  "U+00CF": {
+    "visografema": "Ï",
+    "decodificacao": "Língua na bochecha",
+    "grupo_elis": "M",
+    "ordem": "4C (3P)",
+    "fontes": ""
+  },
+  "U+00D2": {
+    "visografema": "Ò",
+    "decodificacao": "Língua para fora",
+    "grupo_elis": "M",
+    "ordem": "4C (4P)",
+    "fontes": ""
+  },
+  "U+00D3": {
+    "visografema": "Ó",
+    "decodificacao": "Corrente de ar",
+    "grupo_elis": "M",
+    "ordem": "4C (5P)",
+    "fontes": ""
+  },
+  "U+00D4": {
+    "visografema": "Ô",
+    "decodificacao": "Vibração dos lábios",
+    "grupo_elis": "M",
+    "ordem": "4C (6P)",
+    "fontes": ""
+  },
+  "U+00D5": {
+    "visografema": "Õ",
+    "decodificacao": "Movimento lateral do queixo",
+    "grupo_elis": "M",
+    "ordem": "4C (7P)",
+    "fontes": ""
+  },
+  "U+00D6": {
+    "visografema": "Ö",
+    "decodificacao": "Murchar as bochechas",
+    "grupo_elis": "M",
+    "ordem": "4C (8P)",
+    "fontes": ""
+  },
+  "U+00D9": {
+    "visografema": "Ù",
+    "decodificacao": "Inflar as bochechas",
+    "grupo_elis": "M",
+    "ordem": "4C (9P)",
+    "fontes": ""
+  },
+  "U+00DA": {
+    "visografema": "Ú",
+    "decodificacao": "Boca aberta",
+    "grupo_elis": "M",
+    "ordem": "4C (10P)",
+    "fontes": ""
+  },
+  "U+00DB": {
+    "visografema": "Û",
+    "decodificacao": "Piscar o (s) olho (s)",
+    "grupo_elis": "M",
+    "ordem": "4C (11P)",
+    "fontes": ""
+  },
+  "U+00DC": {
+    "visografema": "Ü",
+    "decodificacao": "Girar o tronco",
+    "grupo_elis": "M",
+    "ordem": "4C (12P)",
+    "fontes": ""
+  },
+  "U+006D": {
+    "visografema": "m",
+    "decodificacao": "Repetição do movimento",
+    "grupo_elis": "Diacrítico (M/PA)",
+    "ordem": "5A (1P)",
+    "fontes": ""
+  },
+  "U+006E": {
+    "visografema": "n",
+    "decodificacao": "Alternância do movimento",
+    "grupo_elis": "Diacrítico (M/PA)",
+    "ordem": "5A (2P)",
+    "fontes": ""
+  },
+  "U+003C": {
+    "visografema": "<",
+    "decodificacao": "Lado esquerdo do ponto de articulação",
+    "grupo_elis": "Diacrítico (M/PA)",
+    "ordem": "5A (3P)",
+    "fontes": ""
+  },
+  "U+003E": {
+    "visografema": ">",
+    "decodificacao": "Lado direito do ponto de articulação",
+    "grupo_elis": "Diacrítico (M/PA)",
+    "ordem": "5A (4P)",
+    "fontes": ""
+  },
+  "U+00A7": {
+    "visografema": "§",
+    "decodificacao": "Atrás do ponto de articulação",
+    "grupo_elis": "Diacrítico (M/PA)",
+    "ordem": "5A (5P)",
+    "fontes": ""
+  },
+  "U+002F": {
+    "visografema": "/",
+    "decodificacao": "Indica que o sinal é bimanual simétrico ou quase simétrico",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (1P)",
+    "fontes": ""
+  },
+  "U+0062": {
+    "visografema": "b",
+    "decodificacao": "Utilizado entre dois sinais escritos para indicar que o sinal é composto",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (2P)",
+    "fontes": ""
+  },
+  "U+002D": {
+    "visografema": "-",
+    "decodificacao": "Indica a ausência de movimento de uma das mãos",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (3P)",
+    "fontes": ""
+  },
+  "U+002E": {
+    "visografema": ".",
+    "decodificacao": "Ponto final (em ELiS, tem a forma de um pequeno círculo)",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (4P)",
+    "fontes": ""
+  },
+  "U+003A": {
+    "visografema": ":",
+    "decodificacao": "Dois pontos (também são pequenos círculos)",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (5P)",
+    "fontes": ""
+  },
+  "U+002C": {
+    "visografema": ",",
+    "decodificacao": "Vírgula",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (6P)",
+    "fontes": ""
+  },
+  "U+003F": {
+    "visografema": "?",
+    "decodificacao": "Ponto de interrogação",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (7P)",
+    "fontes": ""
+  },
+  "U+0021": {
+    "visografema": "!",
+    "decodificacao": "Ponto de exclamação",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (8P)",
+    "fontes": ""
+  },
+  "U+00A8": {
+    "visografema": "¨",
+    "decodificacao": "Aspas",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (9P)",
+    "fontes": ""
+  },
+  "U+00B7": {
+    "visografema": "·",
+    "decodificacao": "Indica que o sinal é realizado com a mão esquerda",
+    "grupo_elis": "Pontuação",
+    "ordem": "6A (10P)",
+    "fontes": ""
+  }
+}
